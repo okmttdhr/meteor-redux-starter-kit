@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "compile": "webpack",
+    "compile:watch": "webpack --watch",
     "start": "npm run dev",
     "dev": "node --harmony bin/webpack-dev-server",
     "dev:nw": "npm run dev -- --nw",
